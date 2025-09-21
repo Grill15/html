@@ -30,8 +30,12 @@ body {
 }
 
 .card-content {
+  display: grid;
   padding: 1px 20px 20px 20px;
+  row-gap: 1px;
+  grid-template-rows: auto auto auto 1fr auto;
 }
+
 
 
 .tag {
